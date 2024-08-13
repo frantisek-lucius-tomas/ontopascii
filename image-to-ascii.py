@@ -7,8 +7,7 @@ charArray = np.array(list(chars))
 charLength = len(charArray)
 interval = charLength / 256
 
-
-scaleFactor = 0.25 # scale factor 0 to 1
+scaleFactor = 0.25
 
 # scale for characters
 oneCharWidth = 10
