@@ -6,7 +6,7 @@ setup(
     description="A Python library to convert images and GIFs into ASCII art.",
     author="frantisek tomas",
     author_email="wfrantisektomas@gmail.com",
-    url="https://github.com/yourusername/asciiart",
+    url="https://github.com/frantisek-lucius-tomas/asciiart",
     packages=find_packages(),
     install_requires=[
         "Pillow>=9.0.0",  # Pillow is used for image processing
