@@ -1,0 +1,3 @@
+include README.md
+include LICENSE
+include asciiart/fonts/lucon.ttf
