@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="asciiart",
+    name="asciiart",    
     version="0.0.1",
     description="A Python library to convert images and GIFs into ASCII art.",
     author="frantisek tomas",
