@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ontopascii",
-    version="0.0.1",
+    version="0.0.2",
     author="frantisek tomas",
     author_email="wfrantisektomas@gmail.com",
     url="https://github.com/frantisek-lucius-tomas",
@@ -13,7 +13,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=["PIL", "math"],
     entry_points={"console_scripts": ["ontopascii = ontopascii.ontopascii"]}
 
 )
