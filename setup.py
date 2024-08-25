@@ -2,17 +2,28 @@ from setuptools import setup, find_packages
 
 setup(
     name="ontopascii",
-    version="0.0.3",
+    version="0.0.4",
     author="frantisek tomas",
     author_email="wfrantisektomas@gmail.com",
-    url="https://github.com/frantisek-lucius-tomas",
-    description="ontopascii is a library for generating ascii art, it is very easy to use and you can do miracles with it.",
+    url="https://github.com/frantisek-lucius-tomas/ontopascii",
+    description="A library for generating ASCII art easily and effectively.",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
     packages=find_packages(),
+    install_requires=[
+        "Pillow>=9.0.0",
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    entry_points={"console_scripts": ["ontopascii = ontopascii.ontopascii"]}
-
+    python_requires='>=3.6',
+    entry_points={
+        "console_scripts": [
+            "ontopascii = ontopascii.ontopascii:main"
+        ]
+    },
+    include_package_data=True,
+    license="MIT",
 )
