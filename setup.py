@@ -19,11 +19,6 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    entry_points={
-        "console_scripts": [
-            "ontopascii = ontopascii.ontopascii:main"
-        ]
-    },
     include_package_data=True,
     license="MIT",
 )
