@@ -1,1 +1,1 @@
-from .ontopascii import AsciiArt
+from .ontopascii import AsciiSetup
