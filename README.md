@@ -26,7 +26,3 @@ ascii_art.convert("example.gif/jpg", "output")
 ![output_color](https://github.com/user-attachments/assets/35a936fd-a478-4a1e-9a77-37a5188d052f)
 ![dasdas](https://github.com/user-attachments/assets/0f7480f0-2920-48a4-850f-67fb21c7138b)
 ![output_ascii](https://github.com/user-attachments/assets/268b6cba-ecb8-4267-a8f3-9321517dab63)
-
-[link for the official PYPI website](https://pypi.org/project/ontopascii/)
-
-author : frantisek tomas
