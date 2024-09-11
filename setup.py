@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="ontopascii",
-    version="0.0.7",
+    version="1.0.0",
     author="frantisek tomas",
     author_email="wfrantisektomas@gmail.com",
     url="https://github.com/frantisek-lucius-tomas/ontopascii",
-    description="more on github",
+    description="more information on the github page",
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=[
