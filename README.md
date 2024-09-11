@@ -14,7 +14,9 @@ pip install ontopascii
 
 ```bash
 from ontopascii import AsciiSetup
+
 ascii_art = AsciiSetup(scale_factor=0.25, color=True)
+
 ascii_art.convert("example.gif/jpg", "output")
 ```
 
