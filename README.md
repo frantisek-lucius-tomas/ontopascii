@@ -6,15 +6,17 @@
 
 you can install `ontopascii` using `pip` :
 
-> pip install ontopascii
+```bash
+pip install ontopascii
+```
 
 ## usage
 
-> from ontopascii import AsciiSetup
-
-> ascii_art = AsciiSetup(scale_factor=0.25, color=True)
-
-> ascii_art.convert("example.gif/jpg", "output")
+```bash
+from ontopascii import AsciiSetup
+ascii_art = AsciiSetup(scale_factor=0.25, color=True)
+ascii_art.convert("example.gif/jpg", "output")
+```
 
 ## examples
 
